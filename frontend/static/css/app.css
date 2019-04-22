@@ -1,5 +1,5 @@
 body{
-    background-image: url("/frontend/static/images/backgroundbattle.png");
+    background-image: url("frontend/static/images/backgroundbattle.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover; 
