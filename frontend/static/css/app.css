@@ -1,0 +1,70 @@
+body{
+    background-image: url("/frontend/static/images/backgroundbattle.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    width:150px;
+}
+.img2{
+    width: 100px;
+}
+.top{
+    padding: 20px 80px;
+}
+.score1{
+    margin: auto;
+    padding:10px;
+    border: 2px solid black;
+    background:#f4df58;
+    border-radius: 10px;
+    position: relative;
+}
+.bottom{
+    padding: 20px 80px;
+}
+.score2{
+    margin: auto;
+    padding:10px;
+    border: 2px solid black;
+    background: #a89b48;
+    border-radius: 10px;
+}
+.name1,.name2{
+    float: left;
+    padding: 0px 20px;
+}
+.level1,.level2{
+    float: right;
+    padding: 0px 20px;
+}
+.progress{
+    margin: auto;
+    padding: 10px;
+    background-color:white;
+    border-radius: 30px;
+}
+.img1,.img2{
+    animation: shake 2.0s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
