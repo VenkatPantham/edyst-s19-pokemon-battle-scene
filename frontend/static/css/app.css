@@ -11,12 +11,30 @@ body{
 .img2{
     width: 100px;
 }
+@media only screen and (max-width:1024px){
+    .progress{
+        margin: auto;
+        background-color:white;
+        border-radius: 30px;
+        background:#A9A9A9;
+        float: right;
+        width:90%;
+    }
+}
 @media only screen and (min-width:1025px){
     .top{
         padding: 20px 300px;
     }
     .bottom{
         padding: 20px 300px;
+    }
+    .progress{
+        margin: auto;
+        background-color:white;
+        border-radius: 30px;
+        background:#A9A9A9;
+        float: right;
+        width:94%;
     }
 }
 .score1{
@@ -43,14 +61,6 @@ body{
 }
 .progress-bar{
     padding:0px 10px;
-}
-.progress{
-    margin: auto;
-    background-color:white;
-    border-radius: 30px;
-    background:#A9A9A9;
-    float: right;
-    width:90%;
 }
 .bar1{
     width: 30%;
