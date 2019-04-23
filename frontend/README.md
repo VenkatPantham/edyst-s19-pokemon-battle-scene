@@ -14,3 +14,12 @@ app.css:
     Pokemon animations are used by keyframes
 
 Images folder consists of two pokemon images and background image
+
+For Desktop Screens
+[!alt text](static/images/desktopscreenshot.png)
+
+For Mobile Screens
+[!alt text](static/images/mobilescreenshot.png)
+
+You can open this file from this link
+[a link](https://venkatpantham.github.io/edyst-s19-pokemon-battle-scene/frontend/index.html)
