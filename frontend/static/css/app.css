@@ -1,5 +1,5 @@
 body{
-    background: url('static/images/backgroundbattle.png');
+    background: url('/frontend/static/images/backgroundbattle.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,21 +17,21 @@ body{
     }
     .bottom{
         padding: 20px 300px;
-}   
+    }
 }
 .score1{
     margin: auto auto;
     padding:10px;
-    border: 2px solid black;
+    border: 3px solid white;
     background:#f4df58;
-    border-radius: 10px;
+    border-radius: 20px 5px;
 }
 .score2{
     margin: auto;
     padding:10px;
-    border: 2px solid black;
+    border: 3px solid white;
     background: #a89b48;
-    border-radius: 10px;
+    border-radius: 5px 20px;
 }
 .name1,.name2{
     float: left;
@@ -41,16 +41,40 @@ body{
     float: right;
     padding: 0px 10px;
 }
+.progress-bar{
+    padding:0px 10px;
+}
 .progress{
     margin: auto;
-    padding: 10px;
     background-color:white;
     border-radius: 30px;
+    background:#A9A9A9;
+    float: right;
+    width:90%;
 }
-.img1,.img2{
+.bar1{
+    width: 30%;
+    border-radius: 30px;
+    height:17px;
+    background: white;
+}
+.bar2{
+    width: 70%;
+    border-radius: 30px;
+    height:17px;
+    background: white;
+}
+.img1{
     animation: shake 0.5s infinite alternate;
   } 
 @keyframes shake {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
   }
+.img2{
+    animation: motion 0.5s infinite alternate;
+  } 
+@keyframes motion {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
