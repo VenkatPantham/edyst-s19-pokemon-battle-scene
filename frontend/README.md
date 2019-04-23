@@ -17,7 +17,6 @@ Images folder consists of two pokemon images and background image
 
 [Desktop Screenshot](static/images/desktopscreenshot.png)
 
-For Mobile Screens
 [Mobile Screenshot](static/images/mobilescreenshot.png)
 
 [Link](https://venkatpantham.github.io/edyst-s19-pokemon-battle-scene/frontend/index.html)
