@@ -47,10 +47,18 @@ body{
     background-color:white;
     border-radius: 30px;
 }
-.img1,.img2{
+.img1{
     animation: shake 0.5s infinite alternate;
   } 
 @keyframes shake {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
-  }
+}
+.img2{
+    animation: motion 0.5s infinite alternate;
+  } 
+@keyframes motion {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
