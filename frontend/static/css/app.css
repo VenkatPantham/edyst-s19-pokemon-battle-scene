@@ -1,9 +1,12 @@
 body{
-    background: url('/frontend/static/images/backgroundbattle.png');
+    background: url('../images/backgroundbattle.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+    padding: 75px 0px;
 }
 .img1{
     width:150px;
@@ -77,7 +80,7 @@ body{
 .img1{
     animation: shake 0.5s infinite alternate;
   } 
-@keyframes shake {
+@keyframes shake {                                        /* Used for animation of Pikachu */
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
   }
@@ -85,6 +88,6 @@ body{
     animation: motion 0.5s infinite alternate;
   } 
 @keyframes motion {
-    0% { transform: translateY(-10px); }
+    0% { transform: translateY(-10px); }                  /* Used for animation of Pidgeotto */
     100% { transform: translateY(0); }
 }
