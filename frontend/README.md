@@ -15,8 +15,12 @@ app.css:
 
 Images folder consists of two pokemon images and background image
 
-[Desktop Screenshot](static/images/desktopscreenshot.png)
+[Click this Link to Open](https://venkatpantham.github.io/edyst-s19-pokemon-battle-scene/frontend/index.html)
 
-[Mobile Screenshot](static/images/mobilescreenshot.png)
+Desktop Screenshot
 
-[Link](https://venkatpantham.github.io/edyst-s19-pokemon-battle-scene/frontend/index.html)
+![Screenshot](static/images/desktopscreenshot.png)
+
+Mobile Screenshot
+
+![Screenshot](static/images/mobilescreenshot.png)
