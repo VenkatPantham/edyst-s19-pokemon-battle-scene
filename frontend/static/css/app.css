@@ -1,35 +1,71 @@
 body{
-    background: url('../images/backgroundbattle.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin: 0;
+    background-color: #eeeeee;
     font-family: Arial, Helvetica, sans-serif;
 }
-.bg{
-    padding: 75px 0px;
-}
-.img1{
-    width:150px;
-}
-.img2{
-    width: 100px;
-}
 @media only screen and (max-width:1024px){
+    .bg{
+        background: url('../images/backgroundbattle.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .top{
+        position: relative;
+        padding: 0px 10px;
+        top:50px;
+    }
+    .bottom{
+        position: relative;
+        padding: 0px 10px;
+        bottom:50px;
+    }
     .progress{
         margin: auto;
         background-color:white;
         border-radius: 30px;
         background:#A9A9A9;
         float: right;
-        width:90%;
+        width:89%;
+    }
+    .img1{
+        position: relative;
+        top:0px;
+        width:150px;
+    }
+    .img2{
+        position: relative;
+        top:100px;
+        width: 150px;
+    }
+    .oval1{
+        position: relative;
+        bottom:100px;
+        width:150px;
+    }
+    .oval2{
+        position: relative;
+        bottom:0px;
+        width:150px;
     }
 }
 @media only screen and (min-width:1025px){
+    .bg{
+        background: url('../images/backgroundbattle.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:75%;
+        margin: 0;
+    }
     .top{
-        padding: 20px 300px;
+        position: relative;
+        top:200px;
+        padding:0px 300px;
     }
     .bottom{
-        padding: 20px 300px;
+        position: relative;
+        bottom:200px;
+        padding: 0px 300px;
     }
     .progress{
         margin: auto;
@@ -37,19 +73,39 @@ body{
         border-radius: 30px;
         background:#A9A9A9;
         float: right;
-        width:94%;
+        width:93%;
+    }
+    .img1{
+        position: relative;
+        top: 0px;
+        width:175px;
+    }
+    .img2{
+        position: relative;
+        top:175px;
+        width: 175px;
+    }
+    .oval1{
+        position: relative;
+        bottom:125px;
+        width:175px;
+    }
+    .oval2{
+        position: relative;
+        top:50px;
+        width:175px;
     }
 }
 .score1{
-    margin: auto auto;
-    padding:10px;
+    margin: auto;
+    padding:5px;
     border: 3px solid white;
     background:#f4df58;
     border-radius: 20px 5px;
 }
 .score2{
     margin: auto;
-    padding:10px;
+    padding:5px;
     border: 3px solid white;
     background: #a89b48;
     border-radius: 5px 20px;
@@ -68,13 +124,13 @@ body{
 .bar1{
     width: 30%;
     border-radius: 30px;
-    height:17px;
+    height:12px;
     background: white;
 }
 .bar2{
     width: 70%;
     border-radius: 30px;
-    height:17px;
+    height:12px;
     background: white;
 }
 .img1{
